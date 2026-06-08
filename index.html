@@ -52,6 +52,34 @@
 <section class = "Contact Section">
 <section id = "contact">
     <h4>Contact</h4>
+    <h5>Want to send me a message? Fill out this form!</h5>
+
+    <form action="#" method ="POST">
+        <p>
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name" placeholder="John Smith" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </p>
+
+        <p>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" placeholder="ATTN:Business inquiries" required>
+        </p>
+
+        <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"
+                placeholder="Write your message here..." required></textarea>
+        </p>
+
+        <button type = "submit">Send</button>
+    </form>
+
+    <h5>Or, just send me an email instead</h5>
     <p>Email: soogeun.kim42@login.cuny.edu</p>
 </section>
 </section>
